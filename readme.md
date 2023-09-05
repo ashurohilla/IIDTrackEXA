@@ -60,6 +60,17 @@ run  `python manage.py tailwind start`
 `python manage.py runserver 8002`  ------> port 8002 is optional
 
 
+## run tailwind server with 
+
+`python manage.py tailwind start`  --->  run in another terminal 
+
+
+## note -->  for proper running of project you have to run above   both  comands at the same time one for tailwind watch and one for running the server 
+
+
+
+
+
 ### if all done  ❤️  yeah ---> 
 
 
