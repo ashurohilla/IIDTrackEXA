@@ -6,7 +6,7 @@
 `git clone "url://github.com"`
 
 ##  create your environment 
-`pyhton -m venv env`
+`python -m venv env`
 
 
 ## activate the enviornment
