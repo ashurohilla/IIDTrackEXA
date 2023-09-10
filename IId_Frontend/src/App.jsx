@@ -9,15 +9,11 @@ import NotFound from "./components/NotFound";
 import Profile from "./components/profile/Profile";
 import CreateProfile from "./components/profile/Profilepage";
 import Profiledetail from "./components/profile/SeeProfile";
-import NewsBrowse from "./components/News/NewsBrowse";
-import NewsSelect from "./components/News/NewsSelect";
-import LatestArticle from "./components/News/LatestArticle";
-import SearchByQuery from "./components/News/SearchByQuery";
-import Summary from "./components/News/Summary";
-import RunQuery from "./components/directory_access/runQuery";
-import BrowseAll from "./components/directory_access/BrowseAll";
 import TermsPolicies from "./components/footer/TermsPolicies";
 
+import Biometric from "./components/Biometric/Biometric"
+import SearchingMatching from "./components/Biometric/SearchingMatching"
+import SecuritySetting from "./components/Setting/SecuritySetting"
 function App() {
   return (
     <div className="App ">
@@ -30,15 +26,9 @@ function App() {
 
                 <Route element={<Dashboard />} path="/dashboard" />
 
-                <Route element={<NewsSelect />} path="/news" exact />
-                <Route element={<NewsBrowse />} path="/newsbrowse" exact />
-                <Route element={<LatestArticle />} path="/LatestArticle" exact />
-                <Route element={<SearchByQuery />} path="/SearchByQuery" exact />
-                <Route element={<Summary />} path="/Summary" exact />
+
                 <Route element={<TermsPolicies />} path="/TermsPolicies" exact />
                 <Route element={<PopupPage />} path="/popuppage" exact />
-                <Route element={<RunQuery/>} path="/RunQuery" exact />
-                <Route element={<BrowseAll/>} path="/BrowseAll" exact />
 
                 <Route path="/Profile" element={<Profile />}>
                   <Route index element={<Profiledetail />} />
@@ -46,11 +36,17 @@ function App() {
                   <Route path="createprofile" element={<CreateProfile />}></Route>
                 </Route>
 
+                <Route element={<Biometric/>} path="/Biometric" exact />
+                <Route element={<SearchingMatching/>} path="/SearchingMatching" exact />
+                <Route element={<SecuritySetting/>} path="/SecuritySetting" exact />
+
 
 
             </Route>
             <Route path="*" element={<NotFound />} />
-        </Routes>
+        
+          
+           </Routes>
       </BrowserRouter>
     </div>
   );
