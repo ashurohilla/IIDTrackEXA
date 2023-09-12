@@ -5,7 +5,7 @@ import jwtDecode from "jwt-decode";
 import FixedPlugin from "../fixedPlugin/FixedPlugin";
 import InputField from "../fields/InputField";
 import { Link } from "react-router-dom";
-import myGif from '../../assets/loginpage.gif';
+import search from '../../assets/search.gif';
 
 function Loginpage() {
   const navigate = useNavigate();
@@ -65,7 +65,7 @@ function Loginpage() {
     <div className=" grid  grid-cols-1 md:grid-cols-2  lg:grid-cols-2 pt-8 grid-flow-col h-full gap-4 m-8">
      {/* Sign in section */}
       
-     <img src={myGif} alt="my-gif" className= "w-[1000px] justify-center rounded-[30px] mr-10 border-White-100 border border-2" />
+     <img src={search} alt="my-gif" className= "w-[1000px] justify-center rounded-[30px] mr-10 border-White-100 border border-2" />
 
     <div className="flex flex-col  absolute right-0 w-full md:block lg:w-[50vw] 2xl:w-[45vw] md:px-10 lg:px-20 justify-center rounded-[30px] mt-10 mr-12 ">
 

@@ -4,7 +4,7 @@ import { RiMoonFill, RiSunFill } from "react-icons/ri";
 import { useNavigate } from "react-router-dom";
 import DashApi from "../../dashboardapis/api";
 import { IMAGE_API } from "../../config/constant";
-import Logo from '../../assets/Logo.jpg';
+import Logo from '../../assets/logo.png';
 
 const Navbar = () => {
   const navigate = useNavigate();
