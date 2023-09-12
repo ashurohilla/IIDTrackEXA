@@ -1,4 +1,3 @@
-import React from "react";
 const Biometric = () => {
     return (
         <div className="container">
