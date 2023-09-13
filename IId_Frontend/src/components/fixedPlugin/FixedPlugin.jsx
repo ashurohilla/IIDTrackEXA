@@ -11,7 +11,7 @@ export default function FixedPlugin(props) {
 
   return (
     <button
-      className="border-px fixed bottom-[30px] right-[35px] !z-[99] flex h-[60px] w-[60px] items-center justify-center rounded-full border-[#6a53ff] bg-gradient-to-br from-brandLinear to-blueSecondary p-0"
+      className="border-px fixed top-[30px] right-[35px] !z-[99] flex h-[60px] w-[60px] items-center justify-center rounded-full border-[#6a53ff] bg-gradient-to-br from-White-100 to-darkBlue-500 p-0"
       onClick={() => {
         if (darkmode) {
           document.body.classList.remove("dark");
@@ -29,7 +29,7 @@ export default function FixedPlugin(props) {
         {darkmode ? (
           <RiSunFill className="h-4 w-4 text-white" />
         ) : (
-          <RiMoonFill className="h-4 w-4 text-white" />
+          <RiMoonFill className="h-4 w-4 text-darkBlue-500" />
         )}
       </div>
     </button>

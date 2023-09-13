@@ -14,7 +14,7 @@ const Home = () => {
   <div className="overflow-hidden">  
  
     <Navbar />
-  <h1> this is the home page </h1>
+  <h1 className='text-White-100' > this is the home page </h1>
 
 
     
