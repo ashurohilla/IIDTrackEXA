@@ -58,11 +58,11 @@ function Register() {
       <div className="  grid  grid-cols-1 md:grid-cols-2  lg:grid-cols-2 pt-8  grid-flow-col h-full gap-4 ">
        {/* Sign in section */}
        
-       <div className=" flex flex-col md:px-14 lg:px-20  justify-center ">
+       <div className=" flex flex-col md:px-14 lg:px-20  justify-center text-darkBlue-500 ">
           <h4 className="mb-2.5 text-xl md:text-4xl font-bold text-darkBlue-500 dark:text-darktext">
             👋 Register here
           </h4>
-          <p className="md:mb-9 md:ml-1 text-base text-darkBlue-500 ">
+          <p className="md:mb-9 md:ml-1 text-base text-darkBlue-500 dark:text-White-100">
             Enter your email and password to register
           </p>
 
@@ -106,12 +106,13 @@ function Register() {
               autoComplete="passoword"
               name="password"
               variant="auth"
-              extra="mb-3"
+              extra="mb-3 text-darkBlue-500"
               label="password*"
-              placeholder="mail@simmmple.com"
+              placeholder="password"
               id="password"
               type="password"
               value={password}
+              className="bg-darkBlue-500"
             />
 
             {/* Checkbox */}
