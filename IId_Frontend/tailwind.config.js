@@ -1,40 +1,9 @@
-import { defineConfig } from 'vite'
-import react from '@vitejs/plugin-react'
-export default defineConfig({
+/** @type {import('tailwindcss').Config} */
+module.exports = {
   darkMode: "class",
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
     extend: {
-      animation: {
-        marquee: 'marquee 30s linear infinite',
-        marquee2: 'marquee2 30s linear infinite'
-      },
-      keyframes: {
-        marquee: {
-          '0%': { transform: 'translateX(0%)' },
-          '100%': { transform: 'translateX(-100%)' }
-        },
-        marquee2: {
-          '0%': { transform: 'translateX(100%)' },
-          '100%': { transform: 'translateX(0%)' }
-        }
-      },
-        popup: {
-          display: 'inline-block', // Initially hide the popup
-          position: 'fixed',
-          top: '50%',
-          left: '50%',
-          transform: 'translate(-50%, -50%)',
-          backgroundColor: 'white',
-          padding: '1rem',
-          boxShadow: '0px 0px 10px rgba(0, 0, 0, 0.5)',
-          zIndex: '1000', // Ensure it appears above other elements
-          maxWidth: '80%', // Limit the width of the popup
-        },
-      letterSpacing: {
-        'custom-wide': '0.3em',
-      },
-    
       width: {
         "1p": "1%",
         "2p": "2%",
@@ -139,9 +108,6 @@ export default defineConfig({
       fontFamily: {
         poppins: ["Poppins", "sans-serif"],
         dm: ["DM Sans", "sans-serif"],
-        'bernard': ['Bernard MT Condensed', 'sans-serif'],
-        calibri: ['Calibri', 'Arial', 'sans-serif'],
-        'arial-rounded': ['Arial Rounded MT Bold', 'Arial', 'sans-serif'],
       },
       boxShadow: {
         "3xl": "14px 17px 40px 4px",
@@ -153,8 +119,6 @@ export default defineConfig({
       },
     },
     screens: {
-      ss: "300px",
-      "ss-max": { max: "576px" },
       sm: "576px",
       "sm-max": { max: "576px" },
       md: "768px",
@@ -171,23 +135,10 @@ export default defineConfig({
       "4xl-max": { max: "1850px" },
     },
     colors: () => ({
-      white: "#3A3A3A",//text color 
-      lightPrimary: "#F5F5F5", //lightmode
+      white: "#ffffff",
+      lightPrimary: "#F4F7FE",
       blueSecondary: "#4318FF",
       brandLinear: "#868CFF",
-      darktext: "#F5F5F5",
-      lightgray: "#4f4f504d",
-      darkBlue: {
-        500:"#054871"},
-      lightBlue: {
-        500:"#1975ff"
-      },
-black:{
-  500: "#000000"
-},
-White:{
-  100:"#ffffff",
-},
       gray: {
         50: "#f8f9fa",
         100: "#edf2f7",
@@ -197,9 +148,8 @@ White:{
         500: "#adb5bd",
         600: "#a3aed0",
         700: "#707eae",
-        800: "#F5F5F5",
-        900: "#F5F5F5",
-
+        800: "#252f40",
+        900: "#1b2559",
       },
       navy: {
         50: "#d0dcfb",
@@ -209,9 +159,9 @@ White:{
         400: "#3652ba",
         500: "#1b3bbb",
         600: "#24388a",
-        700: "#191970",
-        800: "#000000",
-        900: "#000000",
+        700: "#1B254B",
+        800: "#111c44",
+        900: "#0b1437",
       },
       red: {
         50: "#ee5d501a",
@@ -374,5 +324,5 @@ White:{
       },
     }),
   },
-  plugins: [react()],
-})
+  plugins: [require("tailwindcss-rtl")],
+};
