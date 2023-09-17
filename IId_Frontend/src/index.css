@@ -27,3 +27,6 @@ input.defaultCheckbox::before {
 input:checked.defaultCheckbox::before { 
 	opacity: 1;
 }
+#root{
+	background: #0b1437;
+}
