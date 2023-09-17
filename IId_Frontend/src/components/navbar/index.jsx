@@ -17,46 +17,53 @@ const Navbar = (props) => {
   const [darkmode, setDarkmode] = React.useState(false);
 
   return (
-    <nav className="sticky top-4 z-40 flex flex-row flex-wrap items-center justify-between rounded-xl bg-white/10 p-2 backdrop-blur-xl dark:bg-[#0b14374d]">
-      <div className="ml-[6px]">
+    <nav className="sticky top-4 z-40 flex flex-row flex-wrap items-center justify-between rounded-xl bg-darkBlue p-2 backdrop-blur-xl dark:bg-white">
+      <div className="ml-[6px] ">
         <div className="h-6 w-[224px] pt-1">
           <a
-            className="text-sm font-normal text-navy-700 hover:underline dark:text-white dark:hover:text-white"
+            className="text-sm font-normal text-darkBlue dark:text-darkBlue hover:underline text-white dark:hover:text-darkBlue"
             href=" "
           >
             Pages
-            <span className="mx-1 text-sm text-navy-700 hover:text-navy-700 dark:text-white">
+            <span className="mx-1 text-sm text-white  dark:text-darkBlue">
               {" "}
               /{" "}
             </span>
           </a>
           <Link
-            className="text-sm font-normal capitalize text-navy-700 hover:underline dark:text-white dark:hover:text-white"
+            className="text-sm font-normal capitalize text-white hover:underline dark:text-darkBlue dark:hover:text-darkBlue"
             to="#"
           >
             {brandText}
           </Link>
         </div>
-        <p className="shrink text-[33px] capitalize text-navy-700 dark:text-white">
+        <p className="shrink text-[33px] capitalize text-white dark:text-white">
           <Link
             to="#"
-            className="font-bold capitalize hover:text-navy-700 dark:hover:text-white"
+            className="font-bold capitalize hover:text-navy-700 dark:hover:text-darkBlue dark:text-darkBlue"
           >
             {brandText}
           </Link>
         </p>
       </div>
 
-      <div className="relative mt-[3px] flex h-[61px] w-[355px] flex-grow items-center justify-around gap-2 rounded-full bg-white px-2 py-2 shadow-xl shadow-shadow-500 dark:!bg-navy-800 dark:shadow-none md:w-[365px] md:flex-grow-0 md:gap-1 xl:w-[365px] xl:gap-2">
-        <div className="flex h-full items-center rounded-full bg-lightPrimary text-navy-700 dark:bg-navy-900 dark:text-white xl:w-[225px]">
-          <p className="pl-3 pr-2 text-xl">
-            <FiSearch className="h-4 w-4 text-gray-400 dark:text-white" />
-          </p>
-          <input
-            type="text"
-            placeholder="Search..."
-            class="block h-full w-full rounded-full bg-lightPrimary text-sm font-medium text-navy-700 outline-none placeholder:!text-gray-400 dark:bg-navy-900 dark:text-white dark:placeholder:!text-white sm:w-fit"
-          />
+      <div className="relative mt-[3px] flex h-[61px] w-[355px] flex-grow items-center justify-around gap-2 rounded-full bg-white px-2 py-2 shadow-xl shadow-shadow-500 dark:!bg-lightBlue dark:shadow-none md:w-[365px] md:flex-grow-0 md:gap-1 xl:w-[365px] xl:gap-2">
+        <div className="flex h-full items-center rounded-full  dark:bg-lightBlue dark:text-white xl:w-[225px]">
+          {/* <p className="flex items-center">
+            <Link
+              to="/login"
+              className="inline-block pt-2 pb-2 pl-5 pr-5 bg-lightBlue border-2 border-lightBlue text-white rounded-[10px] font-medium"
+            >
+              Login
+            </Link>
+
+            <Link
+              to="/Register"
+              className="pt-2 pb-2 pl-4 pr-4 bg-lightBlue border-2 border-lightBlue text-lightBlue rounded-[10px] ml-5 font-medium inline-block text-white"
+            >
+              Register
+            </Link>
+          </p> */}
         </div>
         <span
           className="flex cursor-pointer text-xl text-gray-600 dark:text-white xl:hidden"
@@ -68,7 +75,7 @@ const Navbar = (props) => {
         <Dropdown
           button={
             <p className="cursor-pointer">
-              <IoMdNotificationsOutline className="h-4 w-4 text-gray-600 dark:text-white" />
+              <IoMdNotificationsOutline className="h-5 w-5 text-darkBlue dark:text-white" />
             </p>
           }
           animation="origin-[65%_0%] md:origin-top-right transition-all duration-300 ease-in-out"
@@ -170,9 +177,9 @@ const Navbar = (props) => {
           }}
         >
           {darkmode ? (
-            <RiSunFill className="h-4 w-4 text-gray-600 dark:text-white" />
+            <RiSunFill className="h-5 w-5 text-gray-600 dark:text-white " />
           ) : (
-            <RiMoonFill className="h-4 w-4 text-gray-600 dark:text-white" />
+            <RiMoonFill className="h-5 w-5 text-darkBlue dark:text-darkBlue " />
           )}
         </div>
         {/* Profile & Dropdown */}
@@ -193,6 +200,7 @@ const Navbar = (props) => {
                   </p>{" "}
                 </div>
               </div>
+
               <div className="mt-3 h-px w-full bg-gray-200 dark:bg-white/20 " />
 
               <div className="mt-3 ml-4 flex flex-col">
