@@ -3,7 +3,6 @@ import AuthApi from "../../auth/auth";
 import { useNavigate } from "react-router-dom";
 import InputField from "../fields/InputField";
 import FixedPlugin from "../fixedPlugin/FixedPlugin";
-import RegisterImage from "../../assets/Register.png";
 import { useState } from "react";
 
 function Register() {
@@ -58,11 +57,11 @@ function Register() {
       <div className="  grid  grid-cols-1 md:grid-cols-2  lg:grid-cols-2 pt-8  grid-flow-col h-full gap-4 ">
        {/* Sign in section */}
        
-       <div className=" flex flex-col md:px-14 lg:px-20  justify-center text-darkBlue-500 ">
+       <div className=" flex flex-col md:px-14 lg:px-20  justify-center ">
           <h4 className="mb-2.5 text-xl md:text-4xl font-bold text-darkBlue-500 dark:text-darktext">
             👋 Register here
           </h4>
-          <p className="md:mb-9 md:ml-1 text-base text-darkBlue-500 dark:text-White-100">
+          <p className="md:mb-9 md:ml-1 text-base text-darkBlue-500 ">
             Enter your email and password to register
           </p>
 
@@ -106,13 +105,12 @@ function Register() {
               autoComplete="passoword"
               name="password"
               variant="auth"
-              extra="mb-3 text-darkBlue-500"
+              extra="mb-3"
               label="password*"
-              placeholder="password"
+              placeholder="mail@simmmple.com"
               id="password"
               type="password"
               value={password}
-              className="bg-darkBlue-500"
             />
 
             {/* Checkbox */}
@@ -143,7 +141,7 @@ function Register() {
         
         <div className="flex  mr-10 absolute right-5 sm:hidden ss:hidden  w-full md:block lg:w-[45vw] 2xl:w-[44vw] mt-10">
   <img
-  src={RegisterImage}
+  src=""
     className=" h-full w-full justify-center bg-cover bg-top rounded-[20px]"
   />
    <FixedPlugin />
