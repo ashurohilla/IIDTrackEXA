@@ -40,7 +40,7 @@ function Register() {
       if (response.data && response.data.success === true) {
         setButtonText("Signing  up");
         setError(response.data.msg);
-        return navigate("/login");
+        return navigate("/LoginPage");
       }
     } catch (err) {
       setButtonText("Sign up");
@@ -106,7 +106,7 @@ function Register() {
               name="password"
               variant="auth"
               extra="mb-3"
-              label="password*"
+              label="Password*"
               placeholder="mail@simmmple.com"
               id="password"
               type="password"
@@ -132,7 +132,7 @@ function Register() {
 
             <Link
               className=" flex float-right ml-1 text-sm font-medium text-darkBlue-500 hover:text-brand-600 dark:text-darktext"
-              to="/login"
+              to="/LoginPage"
             >
               Login Here
             </Link>
