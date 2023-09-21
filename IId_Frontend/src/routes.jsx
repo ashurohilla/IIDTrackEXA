@@ -11,6 +11,7 @@ import Settings from "./views/admin/settings";
 import HelpSupport from "./views/admin/help&support";
 import Alerts from "./views/admin/alerts";
 import History from "./views/admin/history";
+import ProfileManagement from "./views/admin/profileManagement";
 // Icon Imports
 import {
   MdHome,
@@ -108,11 +109,19 @@ const routes = [
   },
 
   {
+    name: "Profile Management",
+    layout: "/admin",
+    path: "ProfileManagement",
+    icon: <MdAccountCircle />,
+    component: <ProfileManagement />,
+  },
+  {
     name: "Help & Support",
     layout: "/admin",
     path: "help",
     icon: <MdHelp />,
     component: <HelpSupport />,
   },
+
 ];
 export default routes;
