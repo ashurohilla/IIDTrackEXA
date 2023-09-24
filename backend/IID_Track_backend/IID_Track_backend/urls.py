@@ -20,6 +20,7 @@ from user.viewsets import CustomTokenObtainPairView , CustomTokenRefereshview, E
 from django.conf import settings
 from django.conf.urls.static import static
 from dashboard.views import getprescription
+from chat import urls
 
 
 
@@ -31,6 +32,8 @@ urlpatterns = [
     path('api/token/refresh/', CustomTokenRefereshview.as_view(), name='token_refresh'),
     path('api/verify-email/', EmailVerificationView.as_view(), name='email-verify'),
     path('api/getprescription/<int:id>', getprescription.as_view(), name='get-prescription'),
+    path('chat/', include('chat.urls')),
+
 
 ]
 
