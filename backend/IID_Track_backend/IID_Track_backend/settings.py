@@ -122,8 +122,8 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
         'NAME': 'channelsdb',
-        'USER': 'omkar',
-        'PASSWORD': '2311',
+        'USER': 'chat',
+        'PASSWORD': '123chat',
         'HOST': 'localhost',
         'PORT': '',
     }
