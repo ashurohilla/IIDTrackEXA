@@ -1,12 +1,10 @@
 from rest_framework import serializers
-from .models import Prescription, Medicine
+from .models import Criminal
 
-class MedicineSerializer(serializers.ModelSerializer):
+        
+        
+        
+class crimingalserializer(serializers.ModelSerializer):
     class Meta:
-        model = Medicine
-        fields = '__all__'
-
-class PrescriptionSerializer(serializers.ModelSerializer):
-    class Meta:
-        model = Prescription
-        fields = '__all__'  # You can specify fields if needed
+        model = Criminal
+        fields = '__all__'        
