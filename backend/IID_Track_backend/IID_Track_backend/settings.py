@@ -117,7 +117,7 @@ DATABASES = {
         'PORT': '7171',
     }
 }
-#for chat/messaging application
+#database for chat/messaging application 
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
