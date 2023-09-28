@@ -37,10 +37,10 @@ const MissionHistories = () => {
 
   return (
     <div>
-      <h2>Mission Histories</h2>
+      <h2 className="text-lg font-bold" >Mission Histories</h2>
 
       {/* Form to add a new mission history entry */}
-      <form>
+   
         <label>
           Mission Name (required):
           <input
@@ -49,6 +49,7 @@ const MissionHistories = () => {
             onChange={(e) =>
               setNewMission({ ...newMission, missionName: e.target.value })
             }
+            class="bg-darkBlue w-full ml-2 border border-2 border-white rounded-md p-2"
             required
           />
         </label> <br /> 
@@ -60,6 +61,7 @@ const MissionHistories = () => {
             onChange={(e) =>
               setNewMission({ ...newMission, role: e.target.value })
             }
+            class="bg-darkBlue w-full ml-2 border border-2 border-white rounded-md p-2"
             required
           />
         </label> <br />
@@ -71,6 +73,7 @@ const MissionHistories = () => {
             onChange={(e) =>
               setNewMission({ ...newMission, startDate: e.target.value })
             }
+            class="bg-darkBlue w-full ml-2 border border-2 border-white rounded-md p-2"
             required
           />
         </label> <br />
@@ -82,6 +85,7 @@ const MissionHistories = () => {
             onChange={(e) =>
               setNewMission({ ...newMission, endDate: e.target.value })
             }
+            class="bg-darkBlue w-full ml-2 border border-2 border-white rounded-md p-2"
             required
           />
         </label> <br />
@@ -92,21 +96,22 @@ const MissionHistories = () => {
             onChange={(e) =>
               setNewMission({ ...newMission, description: e.target.value })
             }
+            class="bg-darkBlue w-full ml-2 border border-2 border-white rounded-md p-2"
           />
         </label> <br />
         <label>
-          Achievements:
+          Achievements: <br />
           <textarea
             value={newMission.achievements}
             onChange={(e) =>
               setNewMission({ ...newMission, achievements: e.target.value })
             }
+            class="bg-darkBlue w-full ml-2 border border-2 border-white rounded-md p-2"
           />
         </label> <br />
-        <button type="button" onClick={addMission}>
-          Add Mission
+        <button type="button" onClick={addMission}  className='border border-2 border-white m-2 rounded-[10px] bg-white p-2 text-darkBlue font-bold'  >
+          Add Mission 
         </button>
-      </form>
 
       {/* Display existing mission history entries */}
       <div>
