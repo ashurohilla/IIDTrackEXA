@@ -12,6 +12,7 @@ import HelpSupport from "./views/admin/help&support";
 import Alerts from "./views/admin/alerts";
 import History from "./views/admin/history";
 import ProfileManagement from "./views/admin/profileManagement";
+// import Accordian from "./views/admin/accordian";
 // Icon Imports
 import {
   MdHome,
@@ -85,7 +86,7 @@ const routes = [
     icon: <MdNotifications />,
     component: <Alerts />,
   },
-
+  
   {
     name: "Search History",
     layout: "/admin",
