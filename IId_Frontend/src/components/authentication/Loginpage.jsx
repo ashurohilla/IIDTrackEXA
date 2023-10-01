@@ -93,7 +93,7 @@ function Loginpage() {
             name="email"
             variant="auth"
             extra="mb-3"
-            label="Email*"
+            label={<label style={{ color: 'red' }}>Email*</label>}
             placeholder="mail@simple.com"
             id="Email"
             type="email"
@@ -119,7 +119,7 @@ function Loginpage() {
           <button
             type="Submit"
             onClick={login}
-            className="linear mt-2 w-full rounded-xl bg-lightBlue-500 py-[12px] text-base font-medium text-blue-800 transition duration-200 hover:bg-lightBlue-500 active:bg-lightBlue-500 dark:bg-lightBlue-500 dark:text-white dark:hover:bg-lightBlue-500 dark:active:bg-brand-200"
+            className="linear mt-2 w-full rounded-xl bg-lightBlue-500 py-[12px] text-base font-medium text-blue-800 transition duration-200 hover:bg-lightBlue-500 active:bg-lightBlue-500 dark:bg-lightBlue-500 dark:text-black dark:hover:bg-lightBlue-500 dark:active:bg-brand-200"
           >
             {buttonText}
           </button>

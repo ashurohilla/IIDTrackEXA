@@ -46,6 +46,8 @@ INSTALLED_APPS = [
     'rest_framework_simplejwt',
     "corsheaders",
     'dashboard',
+    'chat',
+    'channels',
    
 
 ]
@@ -80,6 +82,8 @@ TEMPLATES = [
 ]
 
 WSGI_APPLICATION = 'IID_Track_backend.wsgi.application'
+ASGI_APPLICATION = 'IID_Track_backend.asgi.application'
+
 
 
 REST_FRAMEWORK = {
@@ -102,6 +106,20 @@ DATABASES = {
         'NAME': BASE_DIR / 'db.sqlite3',
     }
 }
+
+
+#database for chat/messaging application 
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.postgresql_psycopg2',
+#         'NAME': 'channelsdb',
+#         'USER': 'chat',
+#         'PASSWORD': '123chat',
+#         'HOST': 'localhost',
+#         'PORT': '',
+#     }
+# }
+
 
 # DATABASES = {
 #     'default': {
@@ -252,3 +270,11 @@ STATIC_ROOT = os.path.join(BASE_DIR, "static")
 # https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+CHANNEL_LAYERS = {
+    'default': {
+        'BACKEND': 'channels.layers.InMemoryChannelLayer',
+        # 'CONFIG': {
+        #     'hosts': [('127.0.0.1', 6379)],
+        # }
+    }
+}
