@@ -5,13 +5,14 @@ import jwtDecode from "jwt-decode";
 import FixedPlugin from "../fixedPlugin/FixedPlugin";
 import InputField from "../fields/InputField";
 import { Link } from "react-router-dom";
-
+import loginImage from "../../assets/img/login.png";
 function Loginpage() {
   const navigate = useNavigate();
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [error, setError] = useState(undefined);
   const [buttonText, setButtonText] = useState("Sign in");
+
   const login = async (event) => {
     console.log(email, password);
     if (event) {
@@ -67,7 +68,7 @@ function Loginpage() {
     <div className=" grid  grid-cols-1 md:grid-cols-2  lg:grid-cols-2 pt-8 grid-flow-col h-full gap-4 m-8">
      {/* Sign in section */}
       
-     <img src="" alt="my-gif" className= "w-[1000px] justify-center rounded-[30px] mr-10 border-White-100  border-2" />
+     <img src={loginImage} alt="my-gif" className= "w-[500px] justify-center rounded-[30px] mr-10 border-White-100  border-2" />
 
     <div className="flex flex-col  absolute right-0 w-full md:block lg:w-[50vw] 2xl:w-[45vw] md:px-10 lg:px-20 justify-center rounded-[30px] mt-10 mr-12 ">
 
@@ -84,22 +85,26 @@ function Loginpage() {
 
         {/* Email */}
         <form method="submit">
-          <InputField
-            onChange={(event) => {
-                  setEmail(event.target.value);
-                  setError(undefined);
-                }}
-            autoComplete="Enter your  email"
-            name="email"
-            variant="auth"
-            extra="mb-3"
-            label={<label style={{ color: 'red' }}>Email*</label>}
-            placeholder="mail@simple.com"
-            id="Email"
-            type="email"
-            value={email}
-          />
-          <InputField
+        <label htmlFor="Email" className="mb-2">Email:</label> <br />
+        <input
+          onChange={(event) => {
+            setEmail(event.target.value);
+            setError(undefined);
+          }}
+      autoComplete="Enter your  email"
+      name="email"
+      variant="auth"
+      extra="mb-3"
+      className="p-3"
+      // label={<label style={{ color: 'red' }}>Email*</label>}
+      placeholder="mail@simple.com"
+      id="Email"
+      type="email"
+      value={email}
+        />
+         <br />
+         <label htmlFor="password" className="mb-2">Password:</label> <br />
+          <input
             onChange={(event) => {
             setPassword(event.target.value);
             setError(undefined);
@@ -108,7 +113,9 @@ function Loginpage() {
             name="password"
             variant="auth"
             extra="mb-3"
-            label="Password*"
+            // label="Password*"
+      className="p-3"
+
             placeholder="mail@simmmple.com"
             id="password"
             type="password"
