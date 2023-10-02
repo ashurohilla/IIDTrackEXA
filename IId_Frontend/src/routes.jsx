@@ -4,7 +4,7 @@ import MainDashboard from "./views/admin/default";
 import UserManagement from "./views/admin/usermanagement";
 import BiometricMatching from "./views/admin/biometricMatching";
 import IPTracking from "./views/admin/IPTracking";
-import DeviceTracking from "./views/admin/deviceTracking";
+// import DeviceTracking from "./views/admin/deviceTracking";
 import Messaging from "./views/admin/messaging";
 import AuditLogs from "./views/admin/auditLogs";
 import Settings from "./views/admin/settings";
@@ -56,20 +56,20 @@ const routes = [
   },
 
   {
-    name: "IP Tracking",
+    name: "IP & Device Tracking",
     layout: "/admin",
     path: "IPTracking",
     icon: <MdLocationOn />,
     component: <IPTracking />,
   },
 
-  {
-    name: "Device Tracking",
-    layout: "/admin",
-    path: "deviceTracking",
-    icon: <MdMap />,
-    component: <DeviceTracking />,
-  },
+  // {
+  //   name: "Device Tracking",
+  //   layout: "/admin",
+  //   path: "deviceTracking",
+  //   icon: <MdMap />,
+  //   component: <DeviceTracking />,
+  // },
 
   {
     name: "Messaging",
@@ -95,20 +95,13 @@ const routes = [
     component: <History />,
   },
   {
-    name: "Settings",
-    layout: "/admin",
-    path: "settings",
-    icon: <MdSettings />,
-    component: <Settings />,
-  },
-  {
     name: "Audit Logs",
     layout: "/admin",
     path: "auditLogs",
     icon: <MdAssignment />,
     component: <AuditLogs />,
   },
-
+  
   {
     name: "Profile Management",
     layout: "/admin",
@@ -122,6 +115,13 @@ const routes = [
     path: "help",
     icon: <MdHelp />,
     component: <HelpSupport />,
+  },
+  {
+    name: "Settings",
+    layout: "/admin",
+    path: "settings",
+    icon: <MdSettings />,
+    component: <Settings />,
   },
 
 ];
