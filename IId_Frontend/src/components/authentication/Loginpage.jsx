@@ -68,9 +68,9 @@ function Loginpage() {
     <div className=" grid  grid-cols-1 md:grid-cols-2  lg:grid-cols-2 pt-8 grid-flow-col h-full gap-4 m-8">
      {/* Sign in section */}
       
-     <img src={loginImage} alt="my-gif" className= "w-[500px] justify-center rounded-[30px] mr-10 border-White-100  border-2" />
+     <img src={loginImage} alt="my-gif" className= "w-[400px] justify-center rounded-[30px] mr-10 border-White-100  border-2" />
 
-    <div className="flex flex-col  absolute right-0 w-full md:block lg:w-[50vw] 2xl:w-[45vw] md:px-10 lg:px-20 justify-center rounded-[30px] mt-10 mr-12 ">
+    <div className="flex flex-col  absolute right-0 w-full md:block lg:w-[50vw] 2xl:w-[45vw] md:px-10 lg:px-20 justify-center rounded-[30px] mt-10 mr-10 ">
 
       {/* <div className=" flex flex-col md:px-10 lg:px-20  justify-center rounded-[30px] m-8 mt-2"> */}
 

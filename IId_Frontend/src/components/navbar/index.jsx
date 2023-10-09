@@ -41,7 +41,7 @@ const Navbar = (props) => {
           <Link
             to="#"
             className="font-bold capitalize hover:text-navy-700 dark:hover:text-darkBlue dark:text-darkBlue"
-          >
+          > 
             {brandText}
           </Link>
         </p>
@@ -187,7 +187,7 @@ const Navbar = (props) => {
           button={
             <img
               className="h-10 w-10 rounded-full"
-              src={userIconUrl}
+              // src={userIconUrl}
               alt="Elon Musk"
             />
           }
@@ -196,7 +196,7 @@ const Navbar = (props) => {
               <div className="mt-3 ml-4">
                 <div className="flex items-center gap-2">
                   <p className="text-sm font-bold text-navy-700 dark:text-white">
-                    👋 Hey, {userName} 
+                    👋 Hey, Adela 
                   </p>{" "}
                 </div>
               </div>
