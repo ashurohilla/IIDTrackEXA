@@ -125,9 +125,9 @@ const itemsPerPage = 8;
         ))}
       </tbody>
       </table>
-                        ) : (
+                       ) : (
                             <p>No data found</p>
-                        )}
+                        )};
                     </div>
 
                   

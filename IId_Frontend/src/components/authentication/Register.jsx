@@ -4,6 +4,7 @@ import { useNavigate } from "react-router-dom";
 import InputField from "../fields/InputField";
 import FixedPlugin from "../fixedPlugin/FixedPlugin";
 import { useState } from "react";
+import REGISTER from "../../assets/img/REGISTER.png";
 
 function Register() {
   const navigate = useNavigate();
@@ -58,10 +59,10 @@ function Register() {
        {/* Sign in section */}
        
        <div className=" flex flex-col md:px-14 lg:px-20  justify-center ">
-          <h4 className="mb-2.5 text-xl md:text-4xl font-bold text-darkBlue-500 dark:text-darktext">
+          <h4 className="mb-2.5 text-xl md:text-4xl font-bold text-darkBlue-500 dark:text-white">
             👋 Register here
           </h4>
-          <p className="md:mb-9 md:ml-1 text-base text-darkBlue-500 ">
+          <p className="md:mb-9 md:ml-1 text-base text-darkBlue-500 dark:text-white">
             Enter your email and password to register
           </p>
 
@@ -117,7 +118,7 @@ function Register() {
             <button
               type="Submit"
               onClick={register}
-              className="linear mt-2 w-full rounded-xl bg-lightBlue-500 py-[12px] text-base font-medium text-lightPrimary transition duration-200 hover:bg-brand-600 active:bg-brand-700 dark:bg-brand-400 dark:text-white dark:hover:bg-brand-300 dark:active:bg-brand-200"
+              className="linear mt-2 w-full rounded-xl bg-lightBlue py-[12px] text-base font-medium text-lightPrimary transition duration-200 hover:bg-brand-600 active:bg-brand-700 dark:bg-brand-400 dark:text-white dark:hover:bg-brand-300 dark:active:bg-brand-200"
             >
               {buttonText}
             </button>
@@ -126,12 +127,12 @@ function Register() {
           <h1 className="text-red-700">{error}</h1>
 
           <div className="mt-4">
-            <span className=" text-sm font-medium text-darkBlue-500 dark:text-darktext">
+            <span className=" text-sm font-medium text-darkBlue-500 dark:text-white">
               Already have an account
             </span>
 
             <Link
-              className=" flex float-right ml-1 text-sm font-medium text-darkBlue-500 hover:text-brand-600 dark:text-darktext"
+              className=" flex float-right ml-1 text-sm font-medium text-darkBlue-500 hover:text-brand-600 dark:text-white"
               to="/LoginPage"
             >
               Login Here
@@ -141,7 +142,7 @@ function Register() {
         
         <div className="flex  mr-10 absolute right-5 sm:hidden ss:hidden  w-full md:block lg:w-[45vw] 2xl:w-[44vw] mt-10">
   <img
-  src=""
+  src={REGISTER}
     className=" h-full w-full justify-center bg-cover bg-top rounded-[20px]"
   />
    <FixedPlugin />
