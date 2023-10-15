@@ -9,6 +9,8 @@ import Skills from "./views/admin/profileManagement/components/skills";
 import Qualifications from "./views/admin/profileManagement/components/Qualifications";
 import MissionHistories from "./views/admin/profileManagement/components/MissionHistories";
 import Dropdown from "./views/admin/usermanagement/components/dropdown";
+import Home from "./chatting/Home";
+
 const App = () => {
   return (
     <Routes>
@@ -24,6 +26,7 @@ const App = () => {
       <Route path="MissionHistories" element={<MissionHistories />} />
       <Route path="Dropdown" element={<Dropdown />} />
       <Route path="/" element={<Navigate to="/admin" replace />} />
+      <Route path="chat" element={<Home />} />
     </Routes>
   );
 };

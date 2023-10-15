@@ -160,7 +160,7 @@
         display: flex;
         align-items: center;
         background-color: #2f2d52;
-        height: 50px;
+        height: 60px;
         padding: 10px;
         color: #ddddf7;
 
@@ -393,7 +393,7 @@
       .messages {
         background-color: #ddddf7;
         padding: 10px;
-        height: calc(100% - 160px);
+        height: calc(100% - 100px);
         overflow-y: scroll;
 
         .message {
