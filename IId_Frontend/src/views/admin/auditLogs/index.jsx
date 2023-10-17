@@ -3,8 +3,6 @@ import "bootstrap/dist/css/bootstrap.min.css";
 
 const AuditLogs = () => {
   return (
-    // <div className="mt-3 grid h-full grid-cols-1 gap-5 xl:grid-cols-2 2xl:grid-cols-3 dark:text-white">
-    // <div className="mt-3 grid h-full grid-cols-1 gap-5 xl:grid-cols-2 2xl:grid-cols-3 text-white">
     <div>
       <div
         className="d-flex justify-content-center align-items-center flex-column container px-4 py-5"
