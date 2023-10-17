@@ -10,6 +10,8 @@ import Qualifications from "./views/admin/profileManagement/components/Qualifica
 import MissionHistories from "./views/admin/profileManagement/components/MissionHistories";
 import Dropdown from "./views/admin/usermanagement/components/dropdown";
 import Home from "./chatting/Home";
+import AuditLogs from "./views/admin/auditLogs/index";
+// import AuditLog from "components/audit-log/AuditLog";
 
 const App = () => {
   return (
@@ -27,6 +29,7 @@ const App = () => {
       <Route path="Dropdown" element={<Dropdown />} />
       <Route path="/" element={<Navigate to="/admin" replace />} />
       <Route path="chat" element={<Home />} />
+      <Route path="audit-logs" element={<AuditLogs />} />
     </Routes>
   );
 };
