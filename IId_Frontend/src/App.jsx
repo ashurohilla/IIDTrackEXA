@@ -8,6 +8,10 @@ import PrivateRoutes from "./utils/PrivateRoutes";
 import Skills from "./views/admin/profileManagement/components/skills";
 import Qualifications from "./views/admin/profileManagement/components/Qualifications";
 import MissionHistories from "./views/admin/profileManagement/components/MissionHistories";
+import Dropdown from "./views/admin/usermanagement/components/dropdown";
+import Home from "./chatting/Home";
+import AuditLogs from "./views/admin/auditLogs/index";
+// import AuditLog from "components/audit-log/AuditLog";
 
 const App = () => {
   return (
@@ -22,7 +26,10 @@ const App = () => {
       <Route path="Skills" element={<Skills />} />
       <Route path="Qualifications" element={<Qualifications />} />
       <Route path="MissionHistories" element={<MissionHistories />} />
+      <Route path="Dropdown" element={<Dropdown />} />
       <Route path="/" element={<Navigate to="/admin" replace />} />
+      <Route path="chat" element={<Home />} />
+      <Route path="audit-logs" element={<AuditLogs />} />
     </Routes>
   );
 };
