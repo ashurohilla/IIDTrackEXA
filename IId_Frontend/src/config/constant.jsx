@@ -3,16 +3,16 @@ let IMAGE_SERVER  = null;
 let DOMAIN = null;
 
 
-BACKEND_SERVER = "http://127.0.0.1:8001/api/";
+// BACKEND_SERVER = "http://127.0.0.1:8001/api/";
 
-IMAGE_SERVER  ="http://127.0.0.1:8001";
-DOMAIN = "http://localhost:5173"
+// IMAGE_SERVER  ="http://127.0.0.1:8001";
+// DOMAIN = "http://localhost:5173"
 
 
-// BACKEND_SERVER = "https://iidtrackbackend-production.up.railway.app/api/";
+BACKEND_SERVER = "https://iidtrackbackend-production.up.railway.app/api/";
 
-// IMAGE_SERVER  ="https://iidtrackbackend-production.up.railway.app";
-// DOMAIN = "https://iidtrackbackend-production.up.railway.app"
+IMAGE_SERVER  ="https://iidtrackbackend-production.up.railway.app";
+DOMAIN = "https://iidtrackbackend-production.up.railway.app";
 
 
 

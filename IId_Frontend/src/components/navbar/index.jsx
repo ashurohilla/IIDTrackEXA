@@ -6,7 +6,7 @@ import navbarimage from "../../assets/img/layout/Navbar.png";
 import { BsArrowBarUp } from "react-icons/bs";
 import { FiSearch } from "react-icons/fi";
 import { RiMoonFill, RiSunFill } from "react-icons/ri";
-import userIconUrl from "../../assets/"
+// import userIconUrl from "../../assets/"
 import {
   IoMdNotificationsOutline,
   IoMdInformationCircleOutline,

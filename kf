@@ -1,0 +1,282 @@
+[33mcommit 8100b559484dd6ce2699136e4e23bf73d247de07[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m)[m
+Merge: 1d42d01 980e5ce
+Author: ashishatdiana <ashish.rohilla@dianaadvancedtechacademy.uk>
+Date:   Thu Oct 5 19:20:26 2023 +0530
+
+    Merge branch 'main' of https://github.com/ashurohilla/IIDTrackEXA
+
+[33mcommit 980e5ce35c1e01e481d342ef04cee89f069faa16[m[33m ([m[1;31morigin/main[m[33m)[m
+Merge: 4ddb5da 6cdd2a5
+Author: Nisha gera <111349759+Nisha-Gera@users.noreply.github.com>
+Date:   Mon Oct 2 17:15:24 2023 +0530
+
+    Merge pull request #12 from ashurohilla/nishagera
+    
+    changes
+
+[33mcommit 6cdd2a5326e4b552ae5dd19e2f18f9395d8a3d6b[m[33m ([m[1;31morigin/nishagera[m[33m)[m
+Author: Nisha gera <nishaa.1803gera@gmail.com>
+Date:   Mon Oct 2 17:11:30 2023 +0530
+
+    changes
+
+[33mcommit 1d42d0168c82a1ec3592d4fad2e9ce0de8843047[m
+Merge: 68bbbff 4ddb5da
+Author: ashishatdiana <ashish.rohilla@dianaadvancedtechacademy.uk>
+Date:   Sun Oct 1 17:40:21 2023 +0530
+
+    Merge branch 'main' of https://github.com/ashurohilla/IIDTrackEXA
+
+[33mcommit 68bbbff82feac1809118d857924594f75bf4c52b[m
+Merge: 79d88cf c485ef2
+Author: ashishatdiana <ashish.rohilla@dianaadvancedtechacademy.uk>
+Date:   Sun Oct 1 17:40:14 2023 +0530
+
+    add
+
+[33mcommit 4ddb5dac7b7b11533eac701ce688393fb07ec5a9[m
+Merge: 516b324 9fd3385
+Author: Nisha gera <111349759+Nisha-Gera@users.noreply.github.com>
+Date:   Sat Sep 30 19:36:36 2023 +0530
+
+    Merge pull request #11 from ashurohilla/nishagera
+    
+    user profile
+
+[33mcommit 9fd33855a83f63a92011e162cf385fc65c1da347[m
+Author: Nisha gera <nishaa.1803gera@gmail.com>
+Date:   Sat Sep 30 19:35:18 2023 +0530
+
+    user profile
+
+[33mcommit 516b324560a2bece2432f036ea9509adf5de32ef[m
+Merge: 7f34b9b bd7fa80
+Author: Nisha gera <111349759+Nisha-Gera@users.noreply.github.com>
+Date:   Thu Sep 28 18:05:03 2023 +0530
+
+    Merge pull request #10 from ashurohilla/nishagera
+    
+    user profile
+
+[33mcommit bd7fa800f0654f926aff184a9e7a4ec7642328f9[m
+Author: Nisha gera <nishaa.1803gera@gmail.com>
+Date:   Thu Sep 28 18:04:01 2023 +0530
+
+    user profile
+
+[33mcommit 7f34b9b0213ce15bfaeebf73eae445ac9c1d405e[m
+Author: Rakshita Sharma <99545384+4082-Rakshita@users.noreply.github.com>
+Date:   Tue Sep 26 20:14:27 2023 +0530
+
+    Update index.jsx
+
+[33mcommit 79d88cf8608361caf3df4ce7a24ca37a75e50de7[m
+Author: Ashish <90093173+ashurohilla@users.noreply.github.com>
+Date:   Sun Sep 24 23:58:02 2023 +0530
+
+    adding amy
+
+[33mcommit c485ef2731a5fcda1ce427bb5c168ca1a2aa5199[m
+Author: girikanchan <akira.giri2001@gmail.com>
+Date:   Sun Sep 24 14:15:45 2023 +0530
+
+    details of message.html file &  js/message.js file
+
+[33mcommit a0e522768f49fb74f0377eb2627541661a74b446[m
+Author: girikanchan <akira.giri2001@gmail.com>
+Date:   Sun Sep 24 14:10:49 2023 +0530
+
+    db
+
+[33mcommit 0de1c8b36d2c81f6c408b5b6bb587571fbc9592e[m
+Author: girikanchan <akira.giri2001@gmail.com>
+Date:   Sun Sep 24 14:10:16 2023 +0530
+
+    comment
+
+[33mcommit 1b97491b3c711ca17594fddaaaf5d1e47bbfbb9f[m
+Author: girikanchan <akira.giri2001@gmail.com>
+Date:   Sun Sep 24 14:09:01 2023 +0530
+
+    chat/messager app
+
+[33mcommit 1f7a8c791106f96877e6e190969d0e0c0951eac8[m
+Merge: 35be168 66ac792
+Author: Nisha gera <111349759+Nisha-Gera@users.noreply.github.com>
+Date:   Sat Sep 23 21:41:45 2023 +0530
+
+    Merge pull request #9 from ashurohilla/nishagera
+    
+    User Profile
+
+[33mcommit 66ac7921d89db8c683a24a844c162910efd40469[m
+Author: Nisha gera <nishaa.1803gera@gmail.com>
+Date:   Sat Sep 23 21:40:43 2023 +0530
+
+    User Profile
+
+[33mcommit 35be1684db160a6696d5c1b05f2c7556dd91ff32[m
+Merge: 00135c5 1838855
+Author: Nisha gera <111349759+Nisha-Gera@users.noreply.github.com>
+Date:   Thu Sep 21 21:53:50 2023 +0530
+
+    Merge pull request #8 from ashurohilla/nishagera
+    
+    changes
+
+[33mcommit 1838855c0526672a836c0984a99b9b986202ef46[m
+Author: Nisha gera <nishaa.1803gera@gmail.com>
+Date:   Thu Sep 21 21:51:57 2023 +0530
+
+    changes
+
+[33mcommit 00135c5cfaf1ff0d9f6bc12a778422bcb2957919[m
+Merge: 159d45d b3034b5
+Author: Ashish <ashishrohilla510@gmail.com>
+Date:   Thu Sep 21 18:39:01 2023 +0530
+
+    Merge branch 'main' of https://github.com/ashurohilla/IIDTrackEXA
+
+[33mcommit 159d45d2d0bd8e32ce66ac578cf860b93ab169da[m
+Author: Ashish <ashishrohilla510@gmail.com>
+Date:   Thu Sep 21 18:38:46 2023 +0530
+
+    adding file
+
+[33mcommit b3034b5836438f51f86bf180f6168abc851d1eaa[m
+Merge: a4515d8 fd87ac1
+Author: Nisha gera <111349759+Nisha-Gera@users.noreply.github.com>
+Date:   Thu Sep 21 14:16:35 2023 +0530
+
+    Merge pull request #7 from ashurohilla/nishagera
+    
+    profile management added
+
+[33mcommit fd87ac16894b86f918c89709df2a535c5af4e232[m
+Author: Nisha gera <nishaa.1803gera@gmail.com>
+Date:   Thu Sep 21 14:16:05 2023 +0530
+
+    profile management added
+
+[33mcommit a4515d8cf765677e85593f598600c16a8148a7fb[m
+Author: Ashish <ashishrohilla510@gmail.com>
+Date:   Tue Sep 19 21:15:47 2023 +0530
+
+    addinf new apis
+
+[33mcommit a184197f7764bbfcc94dc49e80cdd56fa2736b3c[m
+Merge: 136d5ba 9e2c201
+Author: Nisha gera <111349759+Nisha-Gera@users.noreply.github.com>
+Date:   Sun Sep 17 17:01:46 2023 +0530
+
+    Merge pull request #6 from ashurohilla/nishagera
+    
+    changes
+
+[33mcommit 9e2c2018533dbafd97c92d0aa0c4e7e7c95ccd6d[m
+Author: Nisha gera <nishaa.1803gera@gmail.com>
+Date:   Sun Sep 17 17:01:11 2023 +0530
+
+    changes
+
+[33mcommit 136d5ba6fdb79a2c9c7c1f16a000b3ba427d954e[m
+Merge: 7008ec4 a4e6639
+Author: Nisha gera <111349759+Nisha-Gera@users.noreply.github.com>
+Date:   Sun Sep 17 15:37:59 2023 +0530
+
+    Merge pull request #5 from ashurohilla/nishagera
+    
+    changes
+
+[33mcommit a4e66399614794b68a05585ef10a15c2a7bd4af8[m
+Author: Nisha gera <nishaa.1803gera@gmail.com>
+Date:   Sun Sep 17 15:37:26 2023 +0530
+
+    changes
+
+[33mcommit 7008ec4f75f4a4c3e37b752ac4f276b11d56e326[m
+Merge: d2414fa 43aa1b7
+Author: Nisha gera <111349759+Nisha-Gera@users.noreply.github.com>
+Date:   Sat Sep 16 22:34:56 2023 +0530
+
+    Merge pull request #4 from ashurohilla/nishagera
+    
+    dashboard pages created
+
+[33mcommit 43aa1b7440f252e43dda11ab5773d502e75b62f4[m
+Author: Nisha gera <nishaa.1803gera@gmail.com>
+Date:   Sat Sep 16 22:34:22 2023 +0530
+
+    dashboard pages created
+
+[33mcommit d2414fa217953e639349d147df138655dbb61b2f[m
+Merge: 85a30c8 336745f
+Author: Nisha gera <111349759+Nisha-Gera@users.noreply.github.com>
+Date:   Sat Sep 16 20:10:12 2023 +0530
+
+    Merge pull request #3 from ashurohilla/nishagera
+    
+    changes
+
+[33mcommit 336745f8d7758ff82006bec4a81af963174f4a82[m
+Author: Nisha gera <nishaa.1803gera@gmail.com>
+Date:   Sat Sep 16 20:09:35 2023 +0530
+
+    changes
+
+[33mcommit 85a30c82bae3cdca6b4ca55286ea0599cdfa2f3c[m
+Merge: 1e72815 36daf04
+Author: Ashish <ashishrohilla510@gmail.com>
+Date:   Fri Sep 15 17:35:11 2023 +0530
+
+    addmy changes
+
+[33mcommit 1e72815f807d87a5048dbfe52a59ece8fae9b5cb[m
+Author: Ashish <ashishrohilla510@gmail.com>
+Date:   Fri Sep 15 17:33:18 2023 +0530
+
+    adding all files
+
+[33mcommit 36daf049b1403209173ce295b322cce4d34edc31[m
+Merge: e0fd5fa e793066
+Author: Nisha gera <111349759+Nisha-Gera@users.noreply.github.com>
+Date:   Wed Sep 13 20:32:12 2023 +0530
+
+    Merge pull request #2 from ashurohilla/nishagera
+    
+    changes
+
+[33mcommit e793066327aa8b3d76d959f0e3c1bff6baf0c763[m
+Author: Nisha gera <nishaa.1803gera@gmail.com>
+Date:   Wed Sep 13 20:31:31 2023 +0530
+
+    changes
+
+[33mcommit e0fd5fa03b360114bd4340168f151755be4a02cb[m
+Merge: 32f5c20 28a9a33
+Author: Nisha gera <111349759+Nisha-Gera@users.noreply.github.com>
+Date:   Tue Sep 12 20:24:59 2023 +0530
+
+    Merge pull request #1 from ashurohilla/nishagera
+    
+    changes
+
+[33mcommit 28a9a3378dc90855af44644b8b1136554d139a8e[m
+Author: Nisha gera <nishaa.1803gera@gmail.com>
+Date:   Tue Sep 12 20:24:17 2023 +0530
+
+    changes
+
+[33mcommit 32f5c2019cb26dad38ad2618d528c3315be8cc9c[m
+Author: Ashish <90093173+ashurohilla@users.noreply.github.com>
+Date:   Tue Sep 12 19:49:38 2023 +0530
+
+    add backend
+
+[33mcommit ad6246dafa6a8033112b26c79ecaede5e2a47cc9[m
+Author: Ashish <90093173+ashurohilla@users.noreply.github.com>
+Date:   Tue Sep 12 19:47:31 2023 +0530
+
+    add
+
+[33mcommit e82a13

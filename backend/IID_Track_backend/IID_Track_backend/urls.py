@@ -26,6 +26,8 @@ from django.conf.urls.static import static
 urlpatterns = [
     path('admin/', admin.site.urls),
     path("api/users/", include(("routers", "apis"), namespace="apis")),
+    # path("api/chat/", include(("chat.urls"), namespace="chats")),
+
     path('api/token/', CustomTokenObtainPairView.as_view(), name='token_obtain_pair'),
     path('api/token/refresh/', CustomTokenRefereshview.as_view(), name='token_refresh'),
     path('api/verify-email/', EmailVerificationView.as_view(), name='email-verify'),
