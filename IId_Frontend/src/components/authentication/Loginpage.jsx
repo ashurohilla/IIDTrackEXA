@@ -9,12 +9,12 @@ import loginImage from "../../assets/img/login.png";
 function Loginpage() {
   const navigate = useNavigate();
   const [email, setEmail] = useState("");
+
   const [password, setPassword] = useState("");
   const [error, setError] = useState(undefined);
   const [buttonText, setButtonText] = useState("Sign in");
 
   const login = async (event) => {
-    console.log(email, password);
     if (event) {
       event.preventDefault();
     }
